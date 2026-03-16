@@ -125,8 +125,7 @@ int tutorial_main(int argc, char* argv[])
 }
 
 /* This function will be called by the pad-added signal */
-static void
-pad_added_handler(GstElement* src, GstPad* new_pad, CustomData* data)
+static void pad_added_handler(GstElement* src, GstPad* new_pad, CustomData* data)
 {
     GstPad* sink_pad = gst_element_get_static_pad(data->convert, "sink");
     GstPadLinkReturn ret;
@@ -146,10 +145,22 @@ pad_added_handler(GstElement* src, GstPad* new_pad, CustomData* data)
     new_pad_caps = gst_pad_get_current_caps(new_pad);
     new_pad_struct = gst_caps_get_structure(new_pad_caps, 0);
     new_pad_type = gst_structure_get_name(new_pad_struct);
-    if (!g_str_has_prefix(new_pad_type, "audio/x-raw")) {
-        g_print("It has type '%s' which is not raw audio. Ignoring.\n", new_pad_type);
+
+    if (g_str_has_prefix(new_pad_type, "audio/x-raw")) {
+        sink_pad = gst_element_get_static_pad(data->convert, "sink");
+    }
+    else if (g_str_has_prefix(new_pad_type, "video/x-raw")) {
+        sink_pad = gst_element_get_static_pad(data->video_convert, "sink");
+    }
+
+    if (sink_pad == NULL || gst_pad_is_linked(sink_pad)) {
+        g_print("It has type '%s' which is not supported or already linked. Ignoring.\n", new_pad_type);
         goto exit;
     }
+    //if (gst_pad_is_linked(sink_pad)) {
+    //    g_print("We are already linked. Ignoring.\n");
+    //    goto exit;
+    //}
 
     /* Attempt the link */
     ret = gst_pad_link(new_pad, sink_pad);
