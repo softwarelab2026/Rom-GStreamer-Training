@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="part2.c" />
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
