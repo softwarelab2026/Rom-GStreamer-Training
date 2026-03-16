@@ -19,12 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic-tutorial-5.c" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\Program Files\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h" />
     <ClInclude Include="..\vcpkg\installed\x64-windows\include\gtk-3.0\gdk\gdk.h" />
     <ClInclude Include="..\vcpkg\installed\x64-windows\include\gtk-3.0\gtk\gtk.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basic-tutorial-6.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
