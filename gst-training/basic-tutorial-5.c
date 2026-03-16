@@ -1,8 +1,8 @@
 #include <string.h>
 
-#include <gtk/gtk.h>
+#include <gtk-3.0/gtk/gtk.h>
 #include <gst/gst.h>
-#include <gdk/gdk.h>
+#include <gtk-3.0/gdk/gdk.h>
 
 /* Structure to contain all our information, so we can pass it around */
 typedef struct _CustomData {
