@@ -157,10 +157,6 @@ static void pad_added_handler(GstElement* src, GstPad* new_pad, CustomData* data
         g_print("It has type '%s' which is not supported or already linked. Ignoring.\n", new_pad_type);
         goto exit;
     }
-    //if (gst_pad_is_linked(sink_pad)) {
-    //    g_print("We are already linked. Ignoring.\n");
-    //    goto exit;
-    //}
 
     /* Attempt the link */
     ret = gst_pad_link(new_pad, sink_pad);
