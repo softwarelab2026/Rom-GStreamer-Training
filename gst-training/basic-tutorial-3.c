@@ -55,6 +55,12 @@ int tutorial_main(int argc, char* argv[])
         return -1;
     }
 
+    if (!gst_element_link(data.video_convert, data.video_sink)) {
+        g_printerr("Video elements could not be linked.\n");
+        gst_object_unref(data.pipeline);
+        return -1;
+    }
+
     /* Set the URI to play */
     g_object_set(data.source, "uri", "https://gstreamer.freedesktop.org/data/media/sintel_trailer-480p.webm", NULL);
 
