@@ -1,8 +1,7 @@
 #include <string.h>
 #include <gst/gst.h>
-#include <gtk-3.0/gtk/gtk.h>
-#include <gtk-3.0/gdk/gdk.h>
- 
+#include <gtk/gtk.h>
+
 typedef struct _CustomData {
     GstElement* playbin;
     GtkWidget* sink_widget;

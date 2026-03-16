@@ -21,6 +21,11 @@
   <ItemGroup>
     <ClCompile Include="basic-tutorial-5.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\Program Files\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0\gst\gst.h" />
+    <ClInclude Include="..\vcpkg\installed\x64-windows\include\gtk-3.0\gdk\gdk.h" />
+    <ClInclude Include="..\vcpkg\installed\x64-windows\include\gtk-3.0\gtk\gtk.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -122,7 +127,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\Program Files\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\Program Files\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\gstreamer\1.0\msvc_x86_64\include\pango-1.0\pango;C:\Program Files\gstreamer\1.0\msvc_x86_64\include\gdk-pixbuf-2.0\gdk-pixbuf;C:\Program Files\gstreamer\1.0\msvc_x86_64\share\licenses\gdk-pixbuf;C:\Program Files\gstreamer\1.0\msvc_x86_64\share\licenses\graphene;C:\Program Files\gstreamer\1.0\msvc_x86_64\include\cairo;C:\Program Files\gstreamer\1.0\msvc_x86_64\include\harfbuzz;C:\Program Files\gstreamer\1.0\msvc_x86_64\include\gstreamer-1.0;C:\Program Files\gstreamer\1.0\msvc_x86_64\include\glib-2.0;C:\Program Files\gstreamer\1.0\msvc_x86_64\lib\glib-2.0\include;C:\Program Files\gstreamer\1.0\msvc_x86_64\include\gtk-4.0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
