@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="basic-tutorial-3.c" />
     <ClCompile Include="basic-tutorial-4.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
