@@ -15,61 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-1.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-3.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-4.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Basic-Tutorials\basic-tutorial-5.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-6.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-7.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-8.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-9.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-12.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorial-13.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Basic-Tutorials\basic-tutorials-15.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Playback-Tutorials\playback-tutorial-1.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Playback-Tutorials\playback-tutorial-7.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Playback-Tutorials\playback-tutorial-2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Playback-Tutorials\playback-tutorial-3.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Playback-Tutorials\playback-tutorial-4.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Playback-Tutorials\playback-tutorial-5.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Playback-Tutorials\playback-tutorial-6.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
