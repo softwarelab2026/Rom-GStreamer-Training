@@ -19,7 +19,25 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-1.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-12.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-13.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-2.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-3.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-4.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-5.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-6.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-7.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-8.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorial-9.c" />
+    <ClCompile Include="Basic-Tutorials\basic-tutorials-15.c" />
+    <ClCompile Include="Playback-Tutorials\playback-tutorial-1.c" />
+    <ClCompile Include="Playback-Tutorials\playback-tutorial-2.c" />
+    <ClCompile Include="Playback-Tutorials\playback-tutorial-3.c" />
+    <ClCompile Include="Playback-Tutorials\playback-tutorial-4.c" />
+    <ClCompile Include="Playback-Tutorials\playback-tutorial-5.c" />
+    <ClCompile Include="Playback-Tutorials\playback-tutorial-6.c" />
+    <ClCompile Include="Playback-Tutorials\playback-tutorial-7.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
