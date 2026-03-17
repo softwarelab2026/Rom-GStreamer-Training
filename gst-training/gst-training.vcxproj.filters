@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Basic-Tutorials">
+      <UniqueIdentifier>{2ebe0512-f0c3-4b34-b399-c85b1e8c27ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Playback-Tutorials">
+      <UniqueIdentifier>{eeff40f8-989e-43b9-9ac6-966c549b7a8d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\vcpkg\installed\x64-windows\include\gtk-3.0\gtk\gtk.h">
@@ -27,7 +33,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="basic-tutorial-6.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Basic-Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="basic-tutorial-5.c">
+      <Filter>Source Files\Basic-Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="basic-tutorial-4.c">
+      <Filter>Source Files\Basic-Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="basic-tutorial-3.c">
+      <Filter>Source Files\Basic-Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="basic-tutorial-2.c">
+      <Filter>Source Files\Basic-Tutorials</Filter>
+    </ClCompile>
+    <ClCompile Include="basic-tutorial-1.c">
+      <Filter>Source Files\Basic-Tutorials</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

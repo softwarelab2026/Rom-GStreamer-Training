@@ -24,6 +24,11 @@
     <ClInclude Include="..\vcpkg\installed\x64-windows\include\gtk-3.0\gtk\gtk.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="basic-tutorial-1.c" />
+    <ClCompile Include="basic-tutorial-2.c" />
+    <ClCompile Include="basic-tutorial-3.c" />
+    <ClCompile Include="basic-tutorial-4.c" />
+    <ClCompile Include="basic-tutorial-5.c" />
     <ClCompile Include="basic-tutorial-6.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
